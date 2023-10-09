@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Super Green - Votre Boutique de Plantes Vertes</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+</head>
+
+<body class="bg-green-50">
+
+    <header class="bg-green-600 text-white py-6">
+        <div class="container mx-auto flex justify-between items-center">
+            <!-- Logo -->
+            <div class="flex items-center">
+                <!-- Logo Image -->
+                <img src="images/super-green-logo.png" alt="Super Green Logo" class="w-25 h-10 mr-2"> <!-- Ajustez w- et h- selon la taille du logo -->
+                <!-- Nom de la Marque -->
+        
+            </div>
+    
+            <!-- Navigation -->
+            <nav>
+                <ul class="flex space-x-4">
+                    <li><a href="#" class="hover:text-gray-300">Accueil</a></li>
+                    <li><a href="produits2.html" class="hover:text-gray-300">Produits</a></li>
+                    <li><a href="contact.html" class="hover:text-gray-300">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+<!-- Hero Section -->
+<section class="relative text-center py-12">
+    <!-- Section Image de Fond -->
+    <div class="bg-cover bg-center relative m-4 border-4 border-green-600 rounded-lg" style="background-image: url('images/hero-image.jpg'); height: 300px;">
+        <!-- Texte de Bienvenue -->
+        <h2 style="text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);" class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white text-4xl font-bold">
+            Bienvenue chez Super Green!
+        </h2>
+    </div>
+    
+    <p class="text-green-700 mb-8">Découvrez notre large sélection de plantes vertes pour embellir votre intérieur.</p>
+    <a href="#" class="bg-green-600 text-white py-2 px-4 rounded hover:bg-green-700">Explorer</a>
+</section>
+
+<!-- Section Produits -->
+<section class="py-12">
+    <div class="container mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+        <!-- Produit 1 -->
+        <div class="bg-white p-6 rounded-lg shadow-md">
+            <a href="produit1.html" title="Voir le détail du produit 1">
+            <img src="images/plante1.jpg" alt="Plante 1" class="w-full h-56 object-cover mb-4 rounded-t-lg"> 
+            <h3 class="text-xl font-bold mb-2">Plante 1</h3>
+        </a>
+            <p class="text-gray-700">Description courte de la plante 1.</p>
+        </div>
+
+        <!-- Produit 2 -->
+        <div class="bg-white p-6 rounded-lg shadow-md">
+            <a href="produit1.html" title="Voir le détail du produit 1">
+            <img src="images/plante2.jpg" alt="Plante 2" class="w-full h-56 object-cover mb-4 rounded-t-lg">
+            <h3 class="text-xl font-bold mb-2">Plante 2</h3>
+        </a>
+            <p class="text-gray-700">Description courte de la plante 2.</p>
+        </div>
+
+        <!-- Produit 3 -->
+        <div class="bg-white p-6 rounded-lg shadow-md">
+            <a href="produit1.html" title="Voir le détail du produit 1">
+            <img src="images/plante3.jpg" alt="Plante 3" class="w-full h-56 object-cover mb-4 rounded-t-lg">
+            <h3 class="text-xl font-bold mb-2">Plante 3</h3>
+        </a>
+            <p class="text-gray-700">Description courte de la plante 3.</p>
+        </div>
+
+
+    <!-- Footer -->
+    <footer class="bg-green-600 text-white py-6 mt-12">
+        <div class="container mx-auto text-center">
+            <p class="text-xl font-bold mb-2">Super Green</p>
+            <p class="text-sm">&copy; 2023 Super Green. Tous droits réservés.</p>
+        </div>
+    </footer>
+
+
+</body>
+
+</html>

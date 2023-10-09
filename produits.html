@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produits - Super Green</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet"> 
+</head>
+
+<body class="bg-gray-100">
+
+    <!-- Navigation -->
+    <nav class="bg-green-600 p-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <a href="index.html" class="text-3xl font-bold text-white">Super Green</a>
+            <ul class="flex space-x-4">
+                <li><a href="index.html" class="text-white hover:text-gray-300">Accueil</a></li>
+                <li><a href="produits.html" class="text-white hover:text-gray-300">Produits</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Section Produits -->
+    <section class="py-12">
+        <div class="container mx-auto">
+            <h2 class="text-green-800 text-4xl font-bold mb-8">Nos Produits</h2>
+            
+            <!-- Grille de Produits -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+                <!-- Carte de Produit (Répétez pour chaque produit) -->
+                <div class="bg-white p-6 rounded-lg shadow-lg">
+                    <img src="images/plante1.jpg" alt="Plantax" class="w-full h-64 object-cover mb-4 rounded"> <!-- Remplacez par vos images -->
+                    <h3 class="text-2xl font-bold mb-2 text-green-800">Plantax</h3>
+                    <p class="text-green-700">La meilleure plante de Saint-cloud</p>
+                </div>
+
+                
+                <!-- Répétez les cartes de produit pour chaque produit -->
+                <!-- ... -->
+
+            <div class="bg-white p-6 rounded-lg shadow-lg">
+                    <img src="images/plante2.jpg" alt="Plantus" class="w-full h-64 object-cover mb-4 rounded"> <!-- Remplacez par vos images -->
+                    <h3 class="text-2xl font-bold mb-2 text-green-800">Plata</h3>
+                    <p class="text-green-700">carrément c un arbre</p>
+                </div>
+            
+            <div class="bg-white p-6 rounded-lg shadow-lg">
+                    <img src="images/plante3.jpg" alt="Plata" class="w-full h-64 object-cover mb-4 rounded"> <!-- Remplacez par vos images -->
+                    <h3 class="text-2xl font-bold mb-2 text-green-800">Plinko</h3>
+                    <p class="text-green-700">petit buisson ça kiff</p>
+                </div>
+            
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-green-600 text-white p-4 mt-12">
+        <div class="container mx-auto text-center">
+            <p>© 2023 Super Green. Tous droits réservés.</p>
+        </div>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
